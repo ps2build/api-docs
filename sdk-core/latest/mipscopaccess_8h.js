@@ -1,0 +1,25 @@
+var mipscopaccess_8h =
+[
+    [ "COP0_REG_BadPAddr", "mipscopaccess_8h.html#a6dfa11584753a94c45d53b0c34903de6", null ],
+    [ "COP0_REG_BadVAddr", "mipscopaccess_8h.html#a4ea54c04fec607b86f656a550392caff", null ],
+    [ "COP0_REG_Cause", "mipscopaccess_8h.html#a492beebf3d3ef31b494d9c8120c54c64", null ],
+    [ "COP0_REG_Compare", "mipscopaccess_8h.html#a22c34b5a4db6903b0301d4b6cf2ab2bf", null ],
+    [ "COP0_REG_Config", "mipscopaccess_8h.html#a48e04b848abd0c8a33f10f58711cc6f2", null ],
+    [ "COP0_REG_Context", "mipscopaccess_8h.html#aa8ffab8c9f890ecdca68bfc45183a85f", null ],
+    [ "COP0_REG_Count", "mipscopaccess_8h.html#a5a6db4f9a3399542aac13f09c2583cc7", null ],
+    [ "COP0_REG_Debug", "mipscopaccess_8h.html#ab473ea4597dc82b3b7eb800e0176eea9", null ],
+    [ "COP0_REG_EntryHi", "mipscopaccess_8h.html#a945521f97438ac3c9e72b89ba7033bcc", null ],
+    [ "COP0_REG_EntryLo0", "mipscopaccess_8h.html#aa02396e23750ca0b07015ab669e263f6", null ],
+    [ "COP0_REG_EntryLo1", "mipscopaccess_8h.html#abadb5830e97a37b13e8226b5d7439a97", null ],
+    [ "COP0_REG_EPC", "mipscopaccess_8h.html#a26d386a916c052510a3b41aba7851f13", null ],
+    [ "COP0_REG_ErrorPC", "mipscopaccess_8h.html#a73eb15b4706df9a4bea28735a8d2533f", null ],
+    [ "COP0_REG_Index", "mipscopaccess_8h.html#ad2051430a7bd08ac293475a3997447e3", null ],
+    [ "COP0_REG_PageMask", "mipscopaccess_8h.html#a3eb9a4e4e2a6686afdf33b23bf10da88", null ],
+    [ "COP0_REG_Perf", "mipscopaccess_8h.html#aa5319abf6d6da069df35bf04c66a84b5", null ],
+    [ "COP0_REG_PRId", "mipscopaccess_8h.html#a8c3b92fd93d42333323e34d129acdda6", null ],
+    [ "COP0_REG_Random", "mipscopaccess_8h.html#ad7409248b233854aa7964efd2f26fa31", null ],
+    [ "COP0_REG_Status", "mipscopaccess_8h.html#a1b8c722c04bf8869d4aa9f771bb43a03", null ],
+    [ "COP0_REG_TagHi", "mipscopaccess_8h.html#a5c3b6de94dcbffa49a6f10ab7bc11c7a", null ],
+    [ "COP0_REG_TagLo", "mipscopaccess_8h.html#a165a98c0ec33347d28b3d578adfc9299", null ],
+    [ "COP0_REG_Wired", "mipscopaccess_8h.html#ad4c5c2a300a366826c9941c109d210b0", null ]
+];
