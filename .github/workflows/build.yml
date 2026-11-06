@@ -69,7 +69,7 @@ jobs:
           cp -a out/html "site/$REPO/$TAG"
           cp -a out/html "site/$REPO/latest"
           ls -1 "site/$REPO" | grep -vx latest | sort -V | head -n "-$KEEP_VERSIONS" | while read -r old; do rm -rf "site/$REPO/$old"; done
-          scripts/index.sh site > site/index.html
+          sh scripts/index.sh site > site/index.html
           cd site
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
