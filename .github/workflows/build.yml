@@ -1,0 +1,75 @@
+name: Build API docs
+
+on:
+  repository_dispatch:
+    types: [docs-released]
+  workflow_dispatch:
+    inputs:
+      repo:
+        description: Repository name under ps2build
+        required: true
+      tag:
+        description: Release tag to document
+        required: true
+
+concurrency:
+  group: api-docs
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+env:
+  KEEP_VERSIONS: "5"
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Resolve target
+        env:
+          IN_REPO: ${{ github.event.client_payload.repo || inputs.repo }}
+          IN_TAG: ${{ github.event.client_payload.tag || inputs.tag }}
+        run: |
+          grep -qxF "$IN_REPO" repos.txt || { echo "::error::$IN_REPO is not listed in repos.txt"; exit 1; }
+          [[ "$IN_TAG" =~ ^[A-Za-z0-9._-]+$ ]] || { echo "::error::invalid tag"; exit 1; }
+          echo "REPO=$IN_REPO" >> "$GITHUB_ENV"
+          echo "TAG=$IN_TAG" >> "$GITHUB_ENV"
+
+      - uses: actions/checkout@v4
+        with:
+          repository: ps2build/${{ env.REPO }}
+          ref: ${{ env.TAG }}
+          path: src
+
+      - name: Install Doxygen
+        run: sudo apt-get update && sudo apt-get install -y --no-install-recommends doxygen graphviz
+
+      - name: Build
+        run: |
+          (cat src/Doxyfile; printf 'OUTPUT_DIRECTORY = %s/out\nPROJECT_NUMBER = %s\nGENERATE_HTML = YES\n' "$PWD" "$TAG") > Doxyfile.run
+          (cd src && doxygen ../Doxyfile.run)
+          test -f out/html/index.html
+
+      - uses: actions/checkout@v4
+        with:
+          ref: gh-pages
+          path: site
+
+      - name: Publish
+        run: |
+          rm -rf "site/$REPO/$TAG" "site/$REPO/latest"
+          mkdir -p "site/$REPO"
+          cp -a out/html "site/$REPO/$TAG"
+          cp -a out/html "site/$REPO/latest"
+          ls -1 "site/$REPO" | grep -vx latest | sort -V | head -n "-$KEEP_VERSIONS" | while read -r old; do rm -rf "site/$REPO/$old"; done
+          scripts/index.sh site > site/index.html
+          cd site
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git diff --cached --quiet && exit 0
+          git commit -m "$REPO $TAG"
+          git push
