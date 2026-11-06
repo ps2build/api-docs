@@ -1,0 +1,20 @@
+var searchData=
+[
+  ['winmz_5fheaderrec_5f_0',['WinMZ_HeaderRec_',['../structWinMZ__HeaderRec__.html',1,'']]],
+  ['winnameinforec_5f_1',['WinNameInfoRec_',['../structWinNameInfoRec__.html',1,'']]],
+  ['winne_5fheaderrec_5f_2',['WinNE_HeaderRec_',['../structWinNE__HeaderRec__.html',1,'']]],
+  ['winpe32_5fheaderrec_5f_3',['WinPE32_HeaderRec_',['../structWinPE32__HeaderRec__.html',1,'']]],
+  ['winpe32_5fsectionrec_5f_4',['WinPE32_SectionRec_',['../structWinPE32__SectionRec__.html',1,'']]],
+  ['winpe_5frsrcdataentryrec_5f_5',['WinPE_RsrcDataEntryRec_',['../structWinPE__RsrcDataEntryRec__.html',1,'']]],
+  ['winpe_5frsrcdirentryrec_5f_6',['WinPE_RsrcDirEntryRec_',['../structWinPE__RsrcDirEntryRec__.html',1,'']]],
+  ['winpe_5frsrcdirrec_5f_7',['WinPE_RsrcDirRec_',['../structWinPE__RsrcDirRec__.html',1,'']]],
+  ['winresourceinforec_5f_8',['WinResourceInfoRec_',['../structWinResourceInfoRec__.html',1,'']]],
+  ['woff2_5fheaderrec_5f_9',['WOFF2_HeaderRec_',['../structWOFF2__HeaderRec__.html',1,'']]],
+  ['woff2_5finforec_5f_10',['WOFF2_InfoRec_',['../structWOFF2__InfoRec__.html',1,'']]],
+  ['woff2_5fpointrec_5f_11',['WOFF2_PointRec_',['../structWOFF2__PointRec__.html',1,'']]],
+  ['woff2_5fsubstreamrec_5f_12',['WOFF2_SubstreamRec_',['../structWOFF2__SubstreamRec__.html',1,'']]],
+  ['woff2_5ftablerec_5f_13',['WOFF2_TableRec_',['../structWOFF2__TableRec__.html',1,'']]],
+  ['woff2_5fttcfontrec_5f_14',['WOFF2_TtcFontRec_',['../structWOFF2__TtcFontRec__.html',1,'']]],
+  ['woff_5fheaderrec_5f_15',['WOFF_HeaderRec_',['../structWOFF__HeaderRec__.html',1,'']]],
+  ['woff_5ftablerec_5f_16',['WOFF_TableRec_',['../structWOFF__TableRec__.html',1,'']]]
+];
