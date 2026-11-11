@@ -1,5 +1,14 @@
 var NAVTREEINDEX17 =
 {
+"structio__dirent__t.html":[9,0,597],
+"structio__stat__t.html":[9,0,598],
+"structioctl__pkt.html":[9,0,599],
+"structiop__bootmode__t.html":[9,0,600],
+"structiop__counter__mmio__hwport__.html":[9,0,601],
+"structiop__event__info__t.html":[9,0,602],
+"structiop__event__info__t.html#a1964b3b4b919ce25fd4e2256f3401080":[9,0,602,0],
+"structiop__event__info__t.html#a35ba3a66f7244158ca1adf7014949469":[9,0,602,2],
+"structiop__event__info__t.html#ab1eed71e61a67f18852a7f9e59a5c744":[9,0,602,4],
 "structiop__event__info__t.html#adca5545675de93b708dd3032228056da":[9,0,602,1],
 "structiop__event__info__t.html#ae9b572f352ffe9633e724e3f269c4070":[9,0,602,3],
 "structiop__event__t.html":[9,0,603],
@@ -240,14 +249,5 @@ var NAVTREEINDEX17 =
 "structpbuf__rom.html":[9,0,754],
 "structpbuf__rom.html#a5cd0dcc590038629644ad775d76230a1":[9,0,754,1],
 "structpbuf__rom.html#a5ffdf590ed65b217e2d96f648e1bd3e7":[9,0,754,0],
-"structpfs__aentry__t.html":[9,0,755],
-"structpfs__bitmapInfo__t.html":[9,0,756],
-"structpfs__block__device__t.html":[9,0,757],
-"structpfs__blockinfo__t.html":[9,0,758],
-"structpfs__blockpos__t.html":[9,0,759],
-"structpfs__cache__s.html":[9,0,760],
-"structpfs__config__t.html":[9,0,761],
-"structpfs__datetime__t.html":[9,0,762],
-"structpfs__dentry__t.html":[9,0,763],
-"structpfs__file__slot__t.html":[9,0,764]
+"structpfs__aentry__t.html":[9,0,755]
 };

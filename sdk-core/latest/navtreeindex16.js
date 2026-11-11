@@ -1,5 +1,14 @@
 var NAVTREEINDEX16 =
 {
+"structcdvdfsv__rpc3__28__inpacket__.html":[9,0,243],
+"structcdvdfsv__rpc3__28__outpacket__.html":[9,0,244],
+"structcdvdfsv__rpc3__29__outpacket__.html":[9,0,245],
+"structcdvdfsv__rpc3__2A__outpacket__.html":[9,0,246],
+"structcdvdfsv__rpc3__2B__inpacket__.html":[9,0,247],
+"structcdvdfsv__rpc3__2B__outpacket__.html":[9,0,248],
+"structcdvdfsv__rpc3__2C__outpacket__.html":[9,0,249],
+"structcdvdfsv__rpc3__2D__inpacket__.html":[9,0,250],
+"structcdvdfsv__rpc3__2E__inpacket__.html":[9,0,251],
 "structcdvdfsv__rpc3__2E__outpacket__.html":[9,0,252],
 "structcdvdfsv__rpc3__2F__inpacket__.html":[9,0,253],
 "structcdvdfsv__rpc3__2F__outpacket__.html":[9,0,254],
@@ -240,14 +249,5 @@ var NAVTREEINDEX16 =
 "structinit__arguments__t.html":[9,0,592],
 "structintrman__callbacks__.html":[9,0,594],
 "structintrman__internals__.html":[9,0,595],
-"structintrman__intr__handler__data__.html":[9,0,596],
-"structio__dirent__t.html":[9,0,597],
-"structio__stat__t.html":[9,0,598],
-"structioctl__pkt.html":[9,0,599],
-"structiop__bootmode__t.html":[9,0,600],
-"structiop__counter__mmio__hwport__.html":[9,0,601],
-"structiop__event__info__t.html":[9,0,602],
-"structiop__event__info__t.html#a1964b3b4b919ce25fd4e2256f3401080":[9,0,602,0],
-"structiop__event__info__t.html#a35ba3a66f7244158ca1adf7014949469":[9,0,602,2],
-"structiop__event__info__t.html#ab1eed71e61a67f18852a7f9e59a5c744":[9,0,602,4]
+"structintrman__intr__handler__data__.html":[9,0,596]
 };

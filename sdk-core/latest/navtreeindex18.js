@@ -1,5 +1,14 @@
 var NAVTREEINDEX18 =
 {
+"structpfs__bitmapInfo__t.html":[9,0,756],
+"structpfs__block__device__t.html":[9,0,757],
+"structpfs__blockinfo__t.html":[9,0,758],
+"structpfs__blockpos__t.html":[9,0,759],
+"structpfs__cache__s.html":[9,0,760],
+"structpfs__config__t.html":[9,0,761],
+"structpfs__datetime__t.html":[9,0,762],
+"structpfs__dentry__t.html":[9,0,763],
+"structpfs__file__slot__t.html":[9,0,764],
 "structpfs__inode__t.html":[9,0,765],
 "structpfs__ioctl2attr__t.html":[9,0,766],
 "structpfs__journal__t.html":[9,0,767],
@@ -240,14 +249,5 @@ var NAVTREEINDEX18 =
 "structusbmass__cmd.html":[9,0,1034],
 "structutimbuf.html":[9,0,1037],
 "structvblankData__t.html":[9,0,1041],
-"structvblank__internals__.html":[9,0,1038],
-"structvblank__item__.html":[9,0,1039],
-"structvblank__ll__.html":[9,0,1040],
-"structvertex__t.html":[9,0,1042],
-"structvif__code__t.html":[7,65,1,1],
-"structvif__code__t.html#a2e5cc7e42aa607f3e97973f7ecabab21":[7,65,1,1,0],
-"structvif__code__t.html#a534c6393fed79e9b98f2948130b58b6e":[7,65,1,1,1],
-"structvif__code__t.html#aa193825a4f97a33f7324d50c642bf342":[7,65,1,1,2],
-"structvpool.html":[9,0,1046],
-"structwinsize.html":[9,0,1054]
+"structvblank__internals__.html":[9,0,1038]
 };

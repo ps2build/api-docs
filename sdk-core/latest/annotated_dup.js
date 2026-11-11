@@ -1055,6 +1055,7 @@ var annotated_dup =
     [ "VU_SXYZF", "structVU__SXYZF.html", "structVU__SXYZF" ],
     [ "VU_VECTOR", "structVU__VECTOR.html", null ],
     [ "winsize", "structwinsize.html", null ],
+    [ "xparam", "structxparam.html", null ],
     [ "zbuffer_t", "structzbuffer__t.html", null ],
     [ "ztest_t", "structztest__t.html", null ]
 ];

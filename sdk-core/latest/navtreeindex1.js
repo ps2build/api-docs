@@ -1,5 +1,6 @@
 var NAVTREEINDEX1 =
 {
+"core_2xparam_2src_2irx__imports_8h.html":[7,104,1],
 "crash-terminate_2src_2main_8cpp_source.html":[10,0,1,6,0,0],
 "crash__font_8h_source.html":[10,0,0,9,1,0],
 "crashscreen_8c_source.html":[10,0,0,9,1,1],
@@ -15,6 +16,7 @@ var NAVTREEINDEX1 =
 "cxx-promise_2src_2main_8cpp_source.html":[10,0,1,11,0,0],
 "cxx-thread-local_2src_2main_8cpp_source.html":[10,0,1,12,0,0],
 "cxx-threads_2src_2main_8cpp_source.html":[10,0,1,13,0,0],
+"database__merged_8c_source.html":[10,0,0,101,1,0],
 "debug_2include_2debug_8h.html":[7,9,0],
 "debug_8c_source.html":[10,0,0,40,1,1],
 "debug__printf_8h.html":[7,60,1],
@@ -196,6 +198,7 @@ var NAVTREEINDEX1 =
 "dir_4aa57acccc0cb2724b6996406cc6e002.html":[10,0,0,87,0],
 "dir_4b52bf96496f00c109e1a25ee8aa81ac.html":[10,0,0,28],
 "dir_4be4b41f0537c51c91312c1c17714030.html":[10,0,1,14,1,0],
+"dir_4c37b10ed2a31232f25f1d8e0a89f880.html":[10,0,0,101],
 "dir_4c9a28810d1b4a4f7272caded1de45f3.html":[10,0,1,5,0],
 "dir_4ca1dbca56ea035d205f43e40847cfaa.html":[10,0,0,44],
 "dir_4d43c35902e8496dd4f269bca54ae00a.html":[10,0,1,12],
@@ -246,8 +249,5 @@ var NAVTREEINDEX1 =
 "dir_6d8ad1e42e27f47c4b72bfaf4f690d5f.html":[10,0,1,0],
 "dir_6ddb4e6d12924ea0f588dc336ca7fb6d.html":[10,0,0,90,0],
 "dir_6ec654ea16b8854953b9909f9b92d015.html":[10,0,0,83,0],
-"dir_6f947a8613ad4bc4de7d7aa68502a321.html":[10,0,0,34,1],
-"dir_6f9f57509840ce3ecf0ec6ee14c7198b.html":[10,0,0,74,0],
-"dir_7100928b67ac9fc75c0822f77a9839d8.html":[10,0,1,9,0],
-"dir_716b8aedf8f7e709a6d8966c096ee74f.html":[10,0,0,0,1]
+"dir_6f947a8613ad4bc4de7d7aa68502a321.html":[10,0,0,34,1]
 };

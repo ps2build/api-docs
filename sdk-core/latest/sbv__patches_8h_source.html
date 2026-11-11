@@ -26,7 +26,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">sdk-core<span id="projectnumber">&#160;v2026.11.10</span>
+   <div id="projectname">sdk-core<span id="projectnumber">&#160;v2026.11.11</span>
    </div>
    <div id="projectbrief">PS2 SDK - core tier (build-critical EE/IOP modules)</div>
   </td>
@@ -135,12 +135,14 @@ document.addEventListener('DOMContentLoaded',() => { initNavTree('sbv__patches_8
 <div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span><span class="keyword">extern</span> <span class="keywordtype">int</span> <a class="code hl_function" href="sbv__patches_8h.html#a71afad23268059645cd9a8310ee59223">sbv_patch_disable_prefix_check</a>(<span class="keywordtype">void</span>);</div>
 <div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span><span class="keyword">extern</span> <span class="keywordtype">int</span> <a class="code hl_function" href="sbv__patches_8h.html#aae2a4b6f2246429c5ead8c072d022f7b">sbv_patch_user_mem_clear</a>(<span class="keywordtype">void</span> *start);</div>
 <div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span><span class="keyword">extern</span> <span class="keywordtype">int</span> <a class="code hl_function" href="sbv__patches_8h.html#aadd4c87782dd3cd922e0e7cf797843ee">sbv_patch_fileio</a>(<span class="keywordtype">void</span>);</div>
-<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span> </div>
-<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span><span class="preprocessor">#ifdef __cplusplus</span></div>
-<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span>}</div>
-<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span><span class="preprocessor">#endif</span></div>
-<div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span> </div>
-<div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span><span class="preprocessor">#endif </span><span class="comment">/* __SBV_PATCHES_H__ */</span><span class="preprocessor"></span></div>
+<div class="line"><a id="l00075" name="l00075"></a><span class="lineno">   75</span><span class="keyword">extern</span> <span class="keywordtype">int</span> <a class="code hl_function" href="sbv__patches_8h.html#a68ba32564ea15157bbeef89e126b15ca">sbv_patch_romdrv_set_rom1_info</a>(<span class="keywordtype">void</span> *iop_reset_addr, <span class="keywordtype">int</span> romdir_size);</div>
+<div class="line"><a id="l00076" name="l00076"></a><span class="lineno">   76</span> </div>
+<div class="line"><a id="l00077" name="l00077"></a><span class="lineno">   77</span><span class="preprocessor">#ifdef __cplusplus</span></div>
+<div class="line"><a id="l00078" name="l00078"></a><span class="lineno">   78</span>}</div>
+<div class="line"><a id="l00079" name="l00079"></a><span class="lineno">   79</span><span class="preprocessor">#endif</span></div>
+<div class="line"><a id="l00080" name="l00080"></a><span class="lineno">   80</span> </div>
+<div class="line"><a id="l00081" name="l00081"></a><span class="lineno">   81</span><span class="preprocessor">#endif </span><span class="comment">/* __SBV_PATCHES_H__ */</span><span class="preprocessor"></span></div>
+<div class="ttc" id="asbv__patches_8h_html_a68ba32564ea15157bbeef89e126b15ca"><div class="ttname"><a href="sbv__patches_8h.html#a68ba32564ea15157bbeef89e126b15ca">sbv_patch_romdrv_set_rom1_info</a></div><div class="ttdeci">int sbv_patch_romdrv_set_rom1_info(void *iop_reset_addr, int romdir_size)</div><div class="ttdef"><b>Definition</b> <a href="patch__romdrv__set__rom1__info_8c_source.html#l00029">patch_romdrv_set_rom1_info.c:29</a></div></div>
 <div class="ttc" id="asbv__patches_8h_html_a71afad23268059645cd9a8310ee59223"><div class="ttname"><a href="sbv__patches_8h.html#a71afad23268059645cd9a8310ee59223">sbv_patch_disable_prefix_check</a></div><div class="ttdeci">int sbv_patch_disable_prefix_check(void)</div><div class="ttdef"><b>Definition</b> <a href="patch__disable__prefix__check_8c_source.html#l00029">patch_disable_prefix_check.c:29</a></div></div>
 <div class="ttc" id="asbv__patches_8h_html_aadd4c87782dd3cd922e0e7cf797843ee"><div class="ttname"><a href="sbv__patches_8h.html#aadd4c87782dd3cd922e0e7cf797843ee">sbv_patch_fileio</a></div><div class="ttdeci">int sbv_patch_fileio(void)</div><div class="ttdef"><b>Definition</b> <a href="patch__fileio_8c_source.html#l00040">patch_fileio.c:40</a></div></div>
 <div class="ttc" id="asbv__patches_8h_html_aae2a4b6f2246429c5ead8c072d022f7b"><div class="ttname"><a href="sbv__patches_8h.html#aae2a4b6f2246429c5ead8c072d022f7b">sbv_patch_user_mem_clear</a></div><div class="ttdeci">int sbv_patch_user_mem_clear(void *start)</div><div class="ttdef"><b>Definition</b> <a href="patch__user__mem__clear_8c_source.html#l00009">patch_user_mem_clear.c:9</a></div></div>

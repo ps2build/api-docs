@@ -1,5 +1,14 @@
 var NAVTREEINDEX12 =
 {
+"scmd_8c.html#a478ad54986cadd08e46f49d98fed0e92":[10,0,0,6,1,0,3,22],
+"scmd_8c.html#a513e6a5989427b7733813cde19162609":[10,0,0,6,1,0,3,7],
+"scmd_8c.html#a632d38dc8245380cded5612ea353a911":[10,0,0,6,1,0,3,28],
+"scmd_8c.html#a7c5fcea2663c3609a08a925b9303bacf":[10,0,0,6,1,0,3,19],
+"scmd_8c.html#a7c76c4159891965c03daaf1f85cda9ea":[10,0,0,6,1,0,3,33],
+"scmd_8c.html#a7dd21faea6c19523a6f6afb39874b97c":[10,0,0,6,1,0,3,25],
+"scmd_8c.html#a85f709f705bbc738918ad9ce44346702":[10,0,0,6,1,0,3,12],
+"scmd_8c.html#a8a60b7e859bd92fa7d302eead84dad01":[10,0,0,6,1,0,3,8],
+"scmd_8c.html#a8d4ac5de556b7dc535088f00b2e927eb":[10,0,0,6,1,0,3,27],
 "scmd_8c.html#a932e77a9c388a42c8743a87aa47d0603":[10,0,0,6,1,0,3,14],
 "scmd_8c.html#a986fe33c36a720e46c7cd8fcedd1cbda":[10,0,0,6,1,0,3,3],
 "scmd_8c.html#a98f499ec122b8961daee0cd22242b194":[10,0,0,6,1,0,3,2],
@@ -104,8 +113,8 @@ var NAVTREEINDEX12 =
 "smap_8c_source.html":[10,0,0,88,1,3],
 "smap__modular_8h.html":[7,91,1],
 "smapregs_8h.html":[7,8,49],
-"smem_8c.html":[10,0,0,77,1,7],
-"smem_8c_source.html":[10,0,0,77,1,7],
+"smem_8c.html":[10,0,0,77,1,8],
+"smem_8c_source.html":[10,0,0,77,1,8],
 "smem_8h.html":[7,80,2],
 "smod_8h.html":[7,80,3],
 "smtp_8h.html":[7,71,48],
@@ -240,14 +249,5 @@ var NAVTREEINDEX12 =
 "structGS__BGCOLOR.html#a9f161f7bdcd7bf8f736acdbd75944f02":[9,0,434,2],
 "structGS__BGCOLOR.html#aa030de677eaee82d4bbac5c28bae08b2":[9,0,434,1],
 "structGS__BGCOLOR.html#ab254d1a2960bb50d1373a9dc5afecaf4":[9,0,434,4],
-"structGS__BGCOLOR.html#add1120f1566daedf9771baacfa041686":[9,0,434,0],
-"structGS__BITBLTBUF.html":[9,0,435],
-"structGS__BUSDIR.html":[9,0,436],
-"structGS__BUSDIR.html#a58e212307d52adf5973b869db979fd4c":[9,0,436,1],
-"structGS__BUSDIR.html#a652f56a91edd27ff282900d61119b69e":[9,0,436,0],
-"structGS__BUSDIR.html#acb8908a4b7dd8b9a883488168cc1421e":[9,0,436,2],
-"structGS__CLAMP.html":[9,0,437],
-"structGS__COLCLAMP.html":[9,0,438],
-"structGS__CSR.html":[9,0,439],
-"structGS__CSR.html#a03a5cec52a4c158e04d32bca61a260f5":[9,0,439,7]
+"structGS__BGCOLOR.html#add1120f1566daedf9771baacfa041686":[9,0,434,0]
 };

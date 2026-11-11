@@ -114,5 +114,6 @@ var searchData=
   ['core_20usbhdfsd_111',['core/usbhdfsd',['../group__core__usbhdfsd.html',1,'']]],
   ['core_20usbmass_5fbd_112',['core/usbmass_bd',['../group__core__usbmass__bd.html',1,'']]],
   ['core_20vblank_113',['core/vblank',['../group__core__vblank.html',1,'']]],
-  ['critical_20sections_114',['Critical sections',['../group__sys__prot.html',1,'']]]
+  ['core_20xparam_114',['core/xparam',['../group__core__xparam.html',1,'']]],
+  ['critical_20sections_115',['Critical sections',['../group__sys__prot.html',1,'']]]
 ];

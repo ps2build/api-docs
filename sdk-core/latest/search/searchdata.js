@@ -1,7 +1,7 @@
 var indexSectionsWithContent =
 {
   0: "5[_abcdefghijklmnopqrstuvwxyz",
-  1: "[_abcdefghiklmnopqrstuvwz",
+  1: "[_abcdefghiklmnopqrstuvwxz",
   2: "gms",
   3: "abcdefghiklmnoprstuvxz",
   4: "_acdefgilmnpqrstvwx",
@@ -10,7 +10,7 @@ var indexSectionsWithContent =
   7: "_acdegilmnopstuv",
   8: "cegilmnps",
   9: "_abcdefghilmnpqrstuvwz",
-  10: "abcdefghiklmnoprstuvz",
+  10: "abcdefghiklmnoprstuvxz",
   11: "5abcdefgilnoprstu"
 };
 

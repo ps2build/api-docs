@@ -26,7 +26,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">sdk-core<span id="projectnumber">&#160;v2026.11.10</span>
+   <div id="projectname">sdk-core<span id="projectnumber">&#160;v2026.11.11</span>
    </div>
    <div id="projectbrief">PS2 SDK - core tier (build-critical EE/IOP modules)</div>
   </td>
@@ -481,13 +481,13 @@ document.addEventListener('DOMContentLoaded',() => { initNavTree('bitmap_8c_sour
 <div class="line"><a id="l00366" name="l00366"></a><span class="lineno">  366</span><span class="keywordtype">void</span> pfsBitmapFreeInodeBlocks(pfs_cache_t *clink)</div>
 <div class="line"><a id="l00367" name="l00367"></a><span class="lineno">  367</span>{</div>
 <div class="line"><a id="l00368" name="l00368"></a><span class="lineno">  368</span>    <a class="code hl_struct" href="structpfs__mount__t.html">pfs_mount_t</a> *pfsMount=clink-&gt;pfsMount;</div>
-<div class="line"><a id="l00369" name="l00369"></a><span class="lineno">  369</span>    u32 i;</div>
+<div class="line"><a id="l00369" name="l00369"></a><span class="lineno">  369</span>    u32 i, number_data=clink-&gt;u.inode-&gt;number_data;</div>
 <div class="line"><a id="l00370" name="l00370"></a><span class="lineno">  370</span> </div>
 <div class="line"><a id="l00371" name="l00371"></a><span class="lineno">  371</span>    pfsCacheUsedAdd(clink);</div>
-<div class="line"><a id="l00372" name="l00372"></a><span class="lineno">  372</span>    <span class="keywordflow">for</span>(i=0;i &lt; clink-&gt;u.inode-&gt;number_data; i++)</div>
+<div class="line"><a id="l00372" name="l00372"></a><span class="lineno">  372</span>    <span class="keywordflow">for</span>(i=0;i &lt; number_data; i++)</div>
 <div class="line"><a id="l00373" name="l00373"></a><span class="lineno">  373</span>    {</div>
 <div class="line"><a id="l00374" name="l00374"></a><span class="lineno">  374</span>        u32 index = pfsFixIndex(i);</div>
-<div class="line"><a id="l00375" name="l00375"></a><span class="lineno">  375</span>        <a class="code hl_struct" href="structpfs__blockinfo__t.html">pfs_blockinfo_t</a> *bi=&amp;clink-&gt;u.inode-&gt;data[index];</div>
+<div class="line"><a id="l00375" name="l00375"></a><span class="lineno">  375</span>        <a class="code hl_struct" href="structpfs__blockinfo__t.html">pfs_blockinfo_t</a> *bi;</div>
 <div class="line"><a id="l00376" name="l00376"></a><span class="lineno">  376</span>        <span class="keywordtype">int</span> err;</div>
 <div class="line"><a id="l00377" name="l00377"></a><span class="lineno">  377</span> </div>
 <div class="line"><a id="l00378" name="l00378"></a><span class="lineno">  378</span>        <span class="keywordflow">if</span>(i!=0) {</div>
@@ -496,12 +496,13 @@ document.addEventListener('DOMContentLoaded',() => { initNavTree('bitmap_8c_sour
 <div class="line"><a id="l00381" name="l00381"></a><span class="lineno">  381</span>                    <span class="keywordflow">return</span>;</div>
 <div class="line"><a id="l00382" name="l00382"></a><span class="lineno">  382</span>        }</div>
 <div class="line"><a id="l00383" name="l00383"></a><span class="lineno">  383</span> </div>
-<div class="line"><a id="l00384" name="l00384"></a><span class="lineno">  384</span>        pfsBitmapFreeBlockSegment(pfsMount, bi);</div>
-<div class="line"><a id="l00385" name="l00385"></a><span class="lineno">  385</span>        pfsCacheMarkClean(pfsMount, (u16)bi-&gt;subpart,  bi-&gt;number &lt;&lt; pfsMount-&gt;inode_scale,</div>
-<div class="line"><a id="l00386" name="l00386"></a><span class="lineno">  386</span>            (bi-&gt;number + bi-&gt;count) &lt;&lt; pfsMount-&gt;inode_scale);</div>
-<div class="line"><a id="l00387" name="l00387"></a><span class="lineno">  387</span>    }</div>
-<div class="line"><a id="l00388" name="l00388"></a><span class="lineno">  388</span>    pfsCacheFree(clink);</div>
-<div class="line"><a id="l00389" name="l00389"></a><span class="lineno">  389</span>}</div>
+<div class="line"><a id="l00384" name="l00384"></a><span class="lineno">  384</span>        bi=&amp;clink-&gt;u.inode-&gt;data[index];</div>
+<div class="line"><a id="l00385" name="l00385"></a><span class="lineno">  385</span>        pfsBitmapFreeBlockSegment(pfsMount, bi);</div>
+<div class="line"><a id="l00386" name="l00386"></a><span class="lineno">  386</span>        pfsCacheMarkClean(pfsMount, (u16)bi-&gt;subpart,  bi-&gt;number &lt;&lt; pfsMount-&gt;inode_scale,</div>
+<div class="line"><a id="l00387" name="l00387"></a><span class="lineno">  387</span>            (bi-&gt;number + bi-&gt;count) &lt;&lt; pfsMount-&gt;inode_scale);</div>
+<div class="line"><a id="l00388" name="l00388"></a><span class="lineno">  388</span>    }</div>
+<div class="line"><a id="l00389" name="l00389"></a><span class="lineno">  389</span>    pfsCacheFree(clink);</div>
+<div class="line"><a id="l00390" name="l00390"></a><span class="lineno">  390</span>}</div>
 <div class="ttc" id="acommon_2include_2errno_8h_html_a088abe8bad2df798edad3053d719b937"><div class="ttname"><a href="common_2include_2errno_8h.html#a088abe8bad2df798edad3053d719b937">ENOSPC</a></div><div class="ttdeci">#define ENOSPC</div><div class="ttdef"><b>Definition</b> <a href="common_2include_2errno_8h_source.html#l00084">errno.h:84</a></div></div>
 <div class="ttc" id="alibpfs_8h_html"><div class="ttname"><a href="libpfs_8h.html">libpfs.h</a></div></div>
 <div class="ttc" id="astdio_8h_html"><div class="ttname"><a href="stdio_8h.html">stdio.h</a></div></div>

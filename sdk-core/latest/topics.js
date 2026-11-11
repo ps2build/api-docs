@@ -103,5 +103,6 @@ var topics =
     [ "core/usbd", "group__core__usbd.html", "group__core__usbd" ],
     [ "core/usbhdfsd", "group__core__usbhdfsd.html", "group__core__usbhdfsd" ],
     [ "core/usbmass_bd", "group__core__usbmass__bd.html", "group__core__usbmass__bd" ],
-    [ "core/vblank", "group__core__vblank.html", "group__core__vblank" ]
+    [ "core/vblank", "group__core__vblank.html", "group__core__vblank" ],
+    [ "core/xparam", "group__core__xparam.html", "group__core__xparam" ]
 ];

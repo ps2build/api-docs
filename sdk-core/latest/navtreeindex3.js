@@ -1,5 +1,10 @@
 var NAVTREEINDEX3 =
 {
+"draw__environment_8c_source.html":[10,0,0,14,1,3],
+"draw__fog_8h.html":[7,13,6],
+"draw__masking_8h.html":[7,13,7],
+"draw__primitives_8h.html":[7,13,8],
+"draw__sampling_8h.html":[7,13,9],
 "draw__tests_8h.html":[7,13,10],
 "draw__types_8h.html":[7,13,11],
 "dvr_8c_source.html":[10,0,0,15,0,0],
@@ -244,10 +249,5 @@ var NAVTREEINDEX3 =
 "globals_r.html":[10,1,0,17],
 "globals_s.html":[10,1,0,18],
 "globals_t.html":[10,1,0,19],
-"globals_type.html":[10,1,3],
-"globals_u.html":[10,1,0,20],
-"globals_v.html":[10,1,0,21],
-"globals_vars.html":[10,1,2],
-"globals_w.html":[10,1,0,22],
-"globals_x.html":[10,1,0,23]
+"globals_type.html":[10,1,3]
 };
